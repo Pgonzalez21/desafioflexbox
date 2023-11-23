@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 8px;
+}
+
+/*Comienzo nav*/
+.nav{
+    width: 20%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.personas{
+    border: solid 1px black;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;      
+
+}
+
+.box{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    
+    
+}
+
+.foto{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+        
+}
+
+.foto img{
+    height: 70%;              
+}
+
+.foto_perfil{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    
+}
+
+.nombre{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+        
+}
+
+.nombre p{
+    margin: 0;
+}
+
+/* .personas:first-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+} */
+
+.foto:first-child{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.iconos{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*Comienzo Chat*/
+
+.chat{
+    width: 80%;
+    height: 100%;
+    background-color: antiquewhite;
+}
