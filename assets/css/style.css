@@ -20,6 +20,7 @@ body{
     /* background-color: aquamarine; */
     display: flex;
     flex-direction: column;
+    
 }
 
 
@@ -29,7 +30,9 @@ body{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;      
+    justify-content: space-between;
+    flex-basis: auto;
+    flex: 1;
 
 }
 
@@ -77,12 +80,7 @@ body{
     margin: 0;
 }
 
-/* .personas:first-child{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: aliceblue;
-} */
+
 
 .foto:first-child{
     width: 40%;
@@ -98,6 +96,37 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.personas:first-child(1){
+    flex: 1;
+}
+.personas:nth-child(2){
+    flex: 2;
+}
+.personas:nth-child(3){
+    flex: 1;
+}
+.personas:nth-child(1){
+    flex: 1;
+}
+.personas:nth-child(5){
+    flex: 1;
+}
+.personas:nth-child(6){
+    flex: 1;
+}
+.personas:nth-child(7){
+    flex: 1;
+}
+.personas:nth-child(8){
+    flex: 1;
+}
+.personas:nth-child(9){
+    flex: 1;
+}
+.personas:last-child(10){
+    flex: 1;
 }
 
 /*Comienzo Chat*/
