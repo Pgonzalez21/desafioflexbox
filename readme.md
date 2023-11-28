@@ -1,4 +1,4 @@
-#Pgonzalez21.github.io
+#desafioflexbox.github.io
 
-C.V <br>
-https://pgonzalez21.github.io/
+Desafio Unidad 2 - Flexbox <br>
+https://.desafioflexbox.github.io
