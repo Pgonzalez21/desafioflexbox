@@ -2,11 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 12px; */
+}
+
+* p{
+    font-size: 16px;
 }
 
 body{
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -14,7 +19,7 @@ body{
 }
 .mensaje{
     height: 100%;
-    width: 80%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,23 +33,25 @@ body{
     display: flex;
     flex-direction: column;    
     height: 100%;
-    width: 20%;
+    width: 25%;
 }
 
 
 
 .chat{
-    border: solid 1px black;
+    border: solid 1px #E8ebe4;
     display: flex;
     width: 100%;
     height: 100%;
     flex: 1;
-    /* flex-basis: auto; */
+   
 }
 
-/* .chat:first-child{
-    flex: 2;
-} */
+
+
+
+/* Seccion box 1*/
+
 .chat:nth-child(2){
     flex: 2;
     display: flex;
@@ -53,12 +60,57 @@ body{
     
 }
 
+
 .box1{
-    /* width: 20%; */
+    
     display: flex;
     flex-direction: row; 
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
 
+
+.foto1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 15px; 
+    width: 70%;
+    height: 100%;
+    
+}
+
+.foto1 img{
+    height: 60%;
+    width: 20%;
+    object-fit: cover;
+    border-radius: 1000px;
+}
+
+.foto1 aside{
+    margin-left: 10px;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+
+
+/* Seccion de chats (3-10)*/
+.box{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
@@ -68,33 +120,33 @@ body{
 .foto{
     display: flex;
     flex-direction: row;
-    /* flex-wrap: nowrap; */
     justify-content: flex-start;
     align-items: center;
-    margin-left: 15px;
-    
-         
-    width: 70%;
+    margin-left: 35px; 
+    width: 100%;
     height: 100%;
-    
+       
 }
 
 .foto img{
-    height: 60%;
-    width: 20%;
+    height: 73%;
+    width: 17%;
     object-fit: cover;
     border-radius: 1000px;
 }
 
 .foto aside{
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
+
+
+
+/* Seccion box 2 - boton*/
 .chat .btn{
-    height: 35%;
-    width: 50%;
-    /* padding: 10px 20px 10px 20px; */
-    background-color: aqua;
+    height: 30%;
+    width: 65%;    
+    background-color: #A491D2;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -105,19 +157,13 @@ body{
 
 .chat .btn_chat{
     text-decoration: none;
-    color: antiquewhite;
+    color: white;
+    font-size: 20PX;
    
     
 }
     
 
-.iconos{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 40%;
-    height: 100%;
-}
 
 
 /*Seccion de mensajes*/
